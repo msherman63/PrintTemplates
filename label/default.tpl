@@ -6,7 +6,7 @@
 	<div class="labels">
 	{% for Label in Labels %}
 		{% for copy in 1..Label.copies %}
-			<div class="label size{{Label.MetaData.size}}{%if Label.MetaData.title == 'none'%} notitle{%endif%}">
+			<div class="label size{{Label.MetaData.size}}{%if Label.MetaData.title == 'Taylor's Bike Shop'%} notitle{%endif%}">
 				<article>
 					<h1>{{ Label.MetaData.title }}</h1>
 					{% if Label.MetaData.price > 0 %}
